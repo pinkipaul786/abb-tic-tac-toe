@@ -1,0 +1,9 @@
+{
+  "games": [],
+  "scoreboard": {
+    "id": "1",
+    "xWins": 0,
+    "oWins": 0,
+    "draws": 0
+  }
+}

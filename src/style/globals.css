@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+* {
+  box-sizing: border-box;
+}
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -19,8 +24,32 @@
   }
 }
 
+
+
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+}
+
+
+
+
+
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+select {
+  font: inherit;
+}
+
+button:focus-visible,
+select:focus-visible {
+  outline: 3px solid #9a91ff;
+  outline-offset: 3px;
 }
